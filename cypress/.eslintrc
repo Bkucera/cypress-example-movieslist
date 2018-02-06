@@ -1,0 +1,10 @@
+// my-project/cypress/.eslintrc
+
+{
+	"plugins": [
+	  "cypress"
+	],
+	"env": {
+	  "cypress/globals": true
+	}
+  }

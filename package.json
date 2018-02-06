@@ -2,13 +2,14 @@
   "name": "movies-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yegor-sytnyk.github.io/movies-list",
   "devDependencies": {
     "gh-pages": "^0.11.0"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
+    "cypress": "^1.4.1",
+    "eslint-plugin-cypress": "^2.0.1",
     "jquery": "^3.1.1",
     "react": "^15.3.2",
     "react-autobind": "^1.0.6",
@@ -24,6 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "cypress": "cypress open",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
